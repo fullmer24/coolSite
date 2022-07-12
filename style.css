@@ -1,0 +1,68 @@
+body {
+    border: .1px solid whitesmoke;
+}
+
+main {
+    background-color: whitesmoke;
+
+}
+
+p {
+    max-width: 50em;
+}
+
+
+.header {
+    background-color: rgb(99, 99, 189);
+    color: rgba(255, 255, 255, 0.853);
+    padding-top: 1em;
+    border: 4px solid rgb(1, 1, 37);
+
+}
+
+.footer {
+    background-color: rgb(99, 99, 189);
+    min-height: 15vh;
+    border: 4px solid rgb(1, 1, 37);
+}
+
+.head {
+    background-color: lightblue;
+    min-height: 2vh;
+    max-height: 4vh;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.image {
+    max-height: 10em;
+    max-width: 10em;
+}
+
+.text-align {
+    text-align: center;
+    align-items: center;
+}
+
+.sidebar {
+    padding-top: 4em;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 25%;
+}
+
+.main-bar {
+    width: 60%;
+}
+
+@media (max-width: 600px) {}
